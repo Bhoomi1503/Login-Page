@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    border: 10px solid rgb(130, 42, 238);
+    height: 600px;
+    padding: 90px 0 0 0;
+}
+.bg img{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+form{
+    padding: 30px;
+    margin-left: 650px;
+}
+input[type=submit]{
+    background-color:rgb(130, 42, 238) ;
+    padding: 10px;
+    border: none;
+    width: 180px;
+    border-radius: 10px;
+
+}
+input{
+    padding: 5px;
+    border: 2px solid black;
+}
+label{
+    text-align: left;
+}
+form,label,input{
+    display: block;
+    align-items: center;
+    
+}
